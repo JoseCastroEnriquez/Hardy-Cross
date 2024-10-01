@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hardy Cross</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="entradas-hardy">
+    <h2 class="titul-met-hardy">Calculadora de Caudales Metodo de Hardy Cross</h2>
+    
+    <div class="contene-grilla">
+      <div class="grilla">
+        <div class="circuito-1"></div>
+      </div>
+
+      <div class="valores-tramo">
+        <div class="calcular">
+          <!--Tabla Para Dar los Valores de Entrada-->
+            <table class="tabla-entradas">
+              <tr class="fila-tit-hardy">
+                <th class="titulo-hardy">Tramo</th>
+                <th class="titulo-hardy">Caudal (lps)</th>
+                <th class="titulo-hardy">Longitud (m)</th>
+                <th class="titulo-hardy">Diametro (m)</th>
+              </tr>
+
+              <tr>
+                <td>Circuito 1</td>
+                <td><input type="text" class="caudal entrada-hardy circuito" value="Circuito 2"></td>
+                <td><input type="text" class="longitud entrada-hardy circuito"  value="Circuito 2"></td>
+                <td><input type="text" class="diametros entrada-hardy circuito"  value="Circuito 2"></td>
+              </tr>
+
+              <tr>
+                <td>A-B</td>
+                <td><input type="text" class="caudal entrada-hardy"></td>
+                <td><input type="text" class="longitud entrada-hardy"></td>
+                <td><input type="text" class="diametros entrada-hardy"></td>
+              </tr>
+
+              <tr>
+                <td>A-D</td>
+                <td><input type="text" class="caudal entrada-hardy"></td>
+                <td><input type="text" class="longitud entrada-hardy"></td>
+                <td><input type="text" class="diametros entrada-hardy"></td>
+              </tr>
+
+              <tr>
+                <td>D-E</td>
+                <td><input type="text" class="caudal entrada-hardy"></td>
+                <td><input type="text" class="longitud entrada-hardy"></td>
+                <td><input type="text" class="diametros entrada-hardy"></td>
+              </tr>
+
+              <tr>
+                <td>B-E</td>
+                <td><input type="text" class="caudal entrada-hardy"></td>
+                <td><input type="text" class="longitud entrada-hardy"></td>
+                <td><input type="text" class="diametros entrada-hardy"></td>
+              </tr>
+
+              <tr>
+                <td>Circuito 2</td>
+                <td><input type="text" class="caudal entrada-hardy circuito" value="Circuito 2"></td>
+                <td><input type="text" class="longitud entrada-hardy circuito"  value="Circuito 2"></td>
+                <td><input type="text" class="diametros entrada-hardy circuito"  value="Circuito 2"></td>
+              </tr>
+
+              <tr>
+                <td>B-C</td>
+                <td><input type="text" class="caudal entrada-hardy"></td>
+                <td><input type="text" class="longitud entrada-hardy"></td>
+                <td><input type="text" class="diametros entrada-hardy"></td>
+              </tr>
+
+              <tr>
+                <td>B-E</td>
+                <td><input type="text" class="caudal entrada-hardy"></td>
+                <td><input type="text" class="longitud entrada-hardy"></td>
+                <td><input type="text" class="diametros entrada-hardy"></td>
+              </tr>
+
+              <tr>
+                <td>E-F</td>
+                <td><input type="text" class="caudal entrada-hardy"></td>
+                <td><input type="text" class="longitud entrada-hardy"></td>
+                <td><input type="text" class="diametros entrada-hardy"></td>
+              </tr>
+
+              <tr>
+                <td>C-F</td>
+                <td><input type="text" class="caudal entrada-hardy"></td>
+                <td><input type="text" class="longitud entrada-hardy"></td>
+                <td><input type="text" class="diametros entrada-hardy"></td>
+              </tr>
+            </table>
+
+            <button class="cla">Calcular</button>
+        </div>
+  </div>
+
+
+  <table class="result-hardy">
+      <tr class="fila-resul">
+        <th class="titul-resulta">Tramo</th>
+        <th class="titul-resulta">Caudal Real (lps)</th>
+      </tr>
+
+      <tr class="cir">
+        <td>Circuito 1</td>
+        <td>Circuito 1</td>
+      </tr>
+
+      <tr class="mostrador">
+        <td>A-B</td>
+      </tr>
+
+      <tr class="mostrador">
+        <td>A-D</td>
+      </tr>
+
+      <tr class="mostrador">
+        <td>D-E</td>
+      </tr>
+
+      <tr class="mostrador">
+        <td>B-E</td>
+      </tr>
+
+      <tr class="cir">
+        <td>Circuito 2</td>
+        <td>Circuito 2</td>
+      </tr>
+
+      <tr class="mostrador">
+        <td>B-C</td>
+      </tr>
+
+      <tr class="mostrador">
+        <td>B-E</td>
+      </tr>
+
+      <tr class="mostrador">
+        <td>E-F</td>
+      </tr>
+
+      <tr class="mostrador">
+        <td>C-F</td>
+      </tr>
+  </table>
+
+<script src="script.js"></script>
+</body>
+</html>

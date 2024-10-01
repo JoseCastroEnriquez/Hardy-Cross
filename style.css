@@ -1,0 +1,108 @@
+.titul-met-hardy {
+    text-align: center;
+}
+.contene-grilla {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+}
+
+.grilla  {
+    width: 500px;
+    height: 300px;
+    margin-bottom: 9vh;
+    border: solid #287ae4 2px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.circuito-1 {
+    width: 250px;
+    height: 300px;
+    border-right: solid 2px #287ae4;
+    box-sizing: border-box;
+}
+
+.puntos {
+    position: absolute;
+}
+
+.valores-tramo {
+    margin-top: 3vh;
+}
+
+.esti-resulta {
+    background:  #287ae4;
+    color: #fff;
+    height: 4vh;
+}
+
+.calcular {
+    margin-bottom: 9vh;
+}
+
+.cla {
+    width: 30vh;
+    height: 7vh;
+    display: block;
+    letter-spacing: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-size: 2.5vh;
+    background: linear-gradient(to top, transparent, #287ae4);
+    color: #fff;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.cla:hover {
+    background: linear-gradient(to top, transparent, #699de1);
+}
+
+.tabla-entradas {
+    width: 96%;
+}
+
+.fila-tit-hardy, .fila-resul{
+    height: 8vh;
+}
+
+
+.titulo-hardy, .titul-resulta {
+    background: linear-gradient(to top, transparent, #287ae4);
+    border: solid 1px black;
+    color: #fff;
+    width: 20vh;
+    height: 8vh;
+}
+
+.tabla-entradas td, .tabla-entradas th {
+    width: 20vh;
+    height: 3vh;
+    text-align: center;
+}
+
+.entrada-hardy {
+    width: 96%;
+    height: 97%;
+    border: 1px rgb(173, 172, 172) solid;
+}
+
+.circuito {
+    border: none;
+}
+
+
+.circuito:focus {
+    border: none;
+    outline: none;
+}
+
